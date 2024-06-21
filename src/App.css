@@ -1,0 +1,99 @@
+body {
+  background-color: #f7f9fc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 800px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 60%;
+  max-width: 300px;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ff7f50;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff4500;
+}
+
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.recipe {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.recipe:hover {
+  transform: translateY(-5px);
+}
+
+.recipe img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.recipe h2 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.recipe p {
+  color: #777;
+  margin: 5px 0;
+}
+
+.recipe a {
+  text-decoration: none;
+  color: #ff7f50;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.recipe a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+  margin-top: 20px;
+}
